@@ -190,13 +190,11 @@
 .contact-form-container .contact-right .contact-type-container {
   height: 100px;
   width: 100%;
-  border: 1px solid color red;
 }
 
 .contact-form-container .contact-right .contact-type-container .contact-type-header-wrapper {
   height: 50px;
   width: 100%;
-  border: 1px solid color red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

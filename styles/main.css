@@ -737,13 +737,11 @@ a {
 .contact-form-container .contact-right .contact-type-container {
   height: 100px;
   width: 100%;
-  border: 1px solid color red;
 }
 
 .contact-form-container .contact-right .contact-type-container .contact-type-header-wrapper {
   height: 50px;
   width: 100%;
-  border: 1px solid color red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1643,5 +1641,52 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media (max-width: 615px) {
+  .hero-image-container {
+    width: 40%;
+  }
+  .header-container {
+    width: 100%;
+  }
+  .hero-space-container {
+    width: 100%;
+    height: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero-space-container .hero-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .bottom-container {
+    width: 40%;
+  }
+  .bottom-container .values-container {
+    width: 300;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,13 +4,11 @@
   display: grid;
   grid-template-rows: 100px 400px 850px 100px;
   margin: 0;
-  // border: 1px solid black;
 }
 
 .embed-map-container {
   height: 400px;
   width: 100%;
-  // border: 20px solid red;
 }
 
 .contact-form-container {
@@ -125,7 +123,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    // padding: 50px 0;
 
     .contact-right-spacer {
       height: 10%;
@@ -134,12 +131,10 @@
     .contact-type-container {
       height: 100px;
       width: 100%;
-      border: 1px solid color red;
 
       .contact-type-header-wrapper {
         height: 50px;
         width: 100%;
-        border: 1px solid color red;
         display: flex;
         align-items: center;
 
