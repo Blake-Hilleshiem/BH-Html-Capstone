@@ -309,19 +309,29 @@ h6 {
             display: flex;
 
             .tags-header {
+              height: 30px;
               font-family: "Raleway", sans-serif;
               color: $header-color;
               font-size: small;
+              display: flex;
+
+              align-items: center;
             }
 
             .uncategorized-tag {
+              height: 25px;
+              width: 120px;
+              background-color: #e91e63;
+              color: white;
+              border-radius: 20px;
+              font-family: "Ramabhadra", sans-serif;
+              font-size: x-small;
+              display: flex;
+              justify-content: center;
+              align-items: center;
               a {
-                height: 50px;
-                width: 70px;
-                background-color: #e91e63;
                 color: white;
-                border-radius: 10px;
-                font-family: "Raleway", sans-serif;
+                // font-size: small;
               }
             }
           }
@@ -333,51 +343,55 @@ h6 {
             justify-content: right;
 
             .facebook-wrapper {
-              height: 40px;
-              width: 40px;
-              background-color: #3c5a98;
-              border-radius: 50%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 1rem;
-              color: white;
-              .a {
-                height: 200px;
-                width: 200px;
-                // border-radius: 10px;
+              .facebook-icon {
+                height: 40px;
+                width: 40px;
                 background-color: #3c5a98;
-                color: white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
               }
+              // height: 40px;
+              // width: 40px;
+              // background-color: #3c5a98;
+              // border-radius: 50%;
+              // display: flex;
+              // justify-content: center;
+              // align-items: center;
+              // font-size: 1rem;
+              // .a {
+              //   height: 200px;
+              //   width: 200px;
+              //   // border-radius: 10px;
+              //   background-color: #3c5a98;
+              // }
             }
 
             .twitter-wrapper {
-              height: 40px;
-              width: 40px;
-              background-color: #56acee;
-              border-radius: 50%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 1rem;
-              color: white;
-
               .twitter-icon {
+                height: 40px;
+                width: 40px;
+                background-color: #56acee;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
               }
             }
 
             .email-wrapper {
-              height: 40px;
-              width: 40px;
-              background-color: #999999;
-              border-radius: 50%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 1rem;
-              color: white;
-
               .email-icon {
+                height: 40px;
+                width: 40px;
+                background-color: #999999;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
               }
             }
           }

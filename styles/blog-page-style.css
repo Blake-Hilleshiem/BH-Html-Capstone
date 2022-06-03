@@ -380,18 +380,39 @@ h6 {
 }
 
 .hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-left .tags-header {
+  height: 30px;
   font-family: "Raleway", sans-serif;
   color: #3c4858;
   font-size: small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-left .uncategorized-tag {
+  height: 25px;
+  width: 120px;
+  background-color: #e91e63;
+  color: white;
+  border-radius: 20px;
+  font-family: "Ramabhadra", sans-serif;
+  font-size: x-small;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-left .uncategorized-tag a {
-  height: 50px;
-  width: 70px;
-  background-color: #e91e63;
   color: white;
-  border-radius: 10px;
-  font-family: "Raleway", sans-serif;
 }
 
 .hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right {
@@ -405,7 +426,7 @@ h6 {
           justify-content: right;
 }
 
-.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .facebook-wrapper {
+.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .facebook-wrapper .facebook-icon {
   height: 40px;
   width: 40px;
   background-color: #3c5a98;
@@ -420,17 +441,9 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1rem;
-  color: white;
 }
 
-.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .facebook-wrapper .a {
-  height: 200px;
-  width: 200px;
-  background-color: #3c5a98;
-  color: white;
-}
-
-.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .twitter-wrapper {
+.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .twitter-wrapper .twitter-icon {
   height: 40px;
   width: 40px;
   background-color: #56acee;
@@ -445,10 +458,9 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1rem;
-  color: white;
 }
 
-.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .email-wrapper {
+.hero-container-blog-post .float-main-content-container .float-main-content .float-main-content-wrapper .blog-tag-container .blog-tag-right .email-wrapper .email-icon {
   height: 40px;
   width: 40px;
   background-color: #999999;
@@ -463,7 +475,6 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1rem;
-  color: white;
 }
 
 .lower-main-content-blog-post {
