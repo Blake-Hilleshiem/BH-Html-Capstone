@@ -1,0 +1,149 @@
+.content-container-blog {
+  height: 100%;
+  width: 100%;
+  // display: grid;
+  // grid-template-rows: 100px 400px 500px;
+  margin: 0;
+  // border: 1px solid black;
+}
+
+.hero-container-blog {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(178, 33, 129);
+  background: linear-gradient(
+    36deg,
+    rgba(178, 33, 129, 1) 0%,
+    rgba(217, 31, 108, 1) 87%,
+    rgba(233, 30, 99, 1) 100%
+  );
+  color: white;
+  font-family: "Ramabhadra", sans-serif;
+
+  .hero-header-blog {
+    font-size: 2.5rem;
+  }
+}
+
+.bottom-content-container-blog {
+  height: 1650px;
+  width: 100%;
+  // border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: #e1e2e4;
+  .main-content-container-blog {
+    height: auto;
+    width: 95%;
+    // display: flex;
+    // flex-direction: columns;
+    // align-items: center;
+    // border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 34px 7px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 0px 34px 7px rgba(0, 0, 0, 0.44);
+    font-family: "Raleway", sans-serif;
+    font-size: small;
+    // padding: 20px 0px;
+    // font-weight: 100;
+    .blog-item-wrapper {
+      display: flex;
+      flex-direction: column;
+      // justify-content: space-between;
+      align-items: center;
+      height: 70%;
+      width: 100%;
+      // padding: 40px 200px;
+      // border: 1px solid blue;
+
+      .blog-content-spacer {
+        height: 60px;
+      }
+
+      .blog-item {
+        height: 150px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 0px;
+        // border: 1px solid black;
+
+        .blog-item-catagory {
+          font-family: "Ramabhadra", sans-serif;
+          padding: 5px 0px;
+        }
+
+        .blog-item-header {
+          font-size: 1.5em;
+          font-family: "Arvo", serif;
+          letter-spacing: 1px;
+          padding: 5px 0px;
+        }
+
+        .blog-item-description {
+          padding: 5px 0px;
+          color: rgb(165, 165, 165);
+          a {
+            color: navy;
+          }
+        }
+
+        .blog-item-author {
+          padding: 5px 0px;
+          a {
+            font-family: "Ramabhadra", sans-serif;
+          }
+        }
+      }
+    }
+    .footer-wrapper {
+      height: 30%;
+      width: 100%;
+      // border: 1px dashed yellow;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+  }
+}
+
+// .main-content-container-blog {
+//   height: auto;
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   .main-content-centered-container-blog {
+//     height: 100%;
+//     width: 800px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: flex-end;
+//     // padding: 20px;
+//     // border: 1px solid red;
+
+//     .blog-item-catagory {
+//       font-weight: 300;
+//     }
+
+//     .blog-item-header {
+//       font-size: 2rem;
+//     }
+
+//     .blog-item-description {
+//       color: azure;
+//     }
+
+//     .blog-item-author {
+//       a {
+//         font-weight: 500;
+//       }
+//     }
+//   }
+// }

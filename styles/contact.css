@@ -1,0 +1,239 @@
+.content-container-contact {
+  height: 100%;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 100px 400px 850px 100px;
+      grid-template-rows: 100px 400px 850px 100px;
+  margin: 0;
+}
+
+.embed-map-container {
+  height: 400px;
+  width: 100%;
+}
+
+.contact-form-container {
+  height: 850px;
+  width: 100%;
+  border: 1px solid color red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-form-container .contact-form-spacer {
+  width: 10%;
+}
+
+.contact-form-container .contact-left {
+  height: 100%;
+  width: 50%;
+  border: 1px solid color red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form-container .contact-left .form-header {
+  height: 15%;
+  width: 100%;
+  font-family: "Arvo", serif;
+  font-size: 2rem;
+  color: #3c4858;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form-container .contact-left input {
+  border: none;
+  border-bottom: 1px solid #a2a2a2;
+  width: 90%;
+}
+
+.contact-form-container .contact-left .form {
+  height: 70%;
+  width: 100%;
+}
+
+.contact-form-container .contact-left .form .name-input {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contact-form-container .contact-left .form .name-input input:focus {
+  outline: none;
+  border-bottom: 1px solid #e91e63;
+}
+
+.contact-form-container .contact-left .form .last-name-input {
+  height: 10%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.contact-form-container .contact-left .form .last-name-input input:focus {
+  outline: none;
+  border-bottom: 1px solid #e91e63;
+}
+
+.contact-form-container .contact-left .form .comment-input {
+  height: 55%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact-form-container .contact-left .form .comment-input input {
+  height: 90%;
+  width: 90%;
+}
+
+.contact-form-container .contact-left .form .comment-input input:focus {
+  outline: none;
+  border-bottom: 1px solid #e91e63;
+}
+
+.contact-form-container .contact-left .form .submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contact-form-container .contact-left .form .submit-button button {
+  all: unset;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #e91e63;
+  color: white;
+  font-size: small;
+}
+
+.contact-form-container .contact-right {
+  height: 100%;
+  width: 50%;
+  border: 1px solid color red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact-form-container .contact-right .contact-right-spacer {
+  height: 10%;
+}
+
+.contact-form-container .contact-right .contact-type-container {
+  height: 100px;
+  width: 100%;
+  border: 1px solid color red;
+}
+
+.contact-form-container .contact-right .contact-type-container .contact-type-header-wrapper {
+  height: 50px;
+  width: 100%;
+  border: 1px solid color red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form-container .contact-right .contact-type-container .contact-type-header-wrapper .contact-icon {
+  height: 100%;
+  font-size: 2rem;
+  color: #e91e63;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-form-container .contact-right .contact-type-container .contact-type-header-wrapper .contact-type-header {
+  height: 100%;
+  font-family: "Arvo", serif;
+  color: #3c4858;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 10px;
+}
+
+.contact-form-container .contact-right .contact-type-container .contact-type-info {
+  font-family: "Raleway", sans-serif;
+  color: #a2a2a2;
+  font-size: small;
+  line-height: 1.8;
+}
+/*# sourceMappingURL=contact.css.map */
