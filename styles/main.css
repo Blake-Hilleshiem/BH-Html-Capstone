@@ -1643,12 +1643,35 @@ h6 {
           flex-direction: column;
 }
 
-@media (max-width: 615px) {
+@media (max-width: 540px) {
+  .content-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 400px 1600px;
+        grid-template-rows: 400px 1600px;
+  }
   .hero-image-container {
     width: 40%;
   }
   .header-container {
     width: 100%;
+  }
+  .header-container .header-right {
+    width: 70%;
+  }
+  .header-container .header-spacer-1 {
+    width: 0;
+  }
+  .header-container .header-right .header-more {
+    height: 0px;
+  }
+  .header-container .header-right .header-more a {
+    height: 0px;
+    width: 0px;
+    color: transparent;
+  }
+  .header-container .header-spacer-2 {
+    width: 0;
   }
   .hero-space-container {
     width: 100%;
@@ -1662,6 +1685,7 @@ h6 {
             flex-direction: column;
   }
   .hero-space-container .hero-header {
+    font-size: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1673,12 +1697,28 @@ h6 {
             align-items: center;
     text-align: center;
   }
+  .hero-space-container .hero-button-wrapper {
+    height: 0px;
+  }
+  .hero-space-container .hero-button-wrapper .see-more-button {
+    color: transparent;
+    height: 0px;
+    width: 0px;
+  }
   .bottom-container {
     width: 40%;
+    height: 120%;
   }
-  .bottom-container .values-container {
-    width: 300;
-    height: 100%;
+  .bottom-container .main-content-container {
+    height: 2000px;
+  }
+  .bottom-container .main-content-container .middle-header {
+    height: 150px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .bottom-container .main-content-container .values-container {
+    height: 700px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1687,6 +1727,28 @@ h6 {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 0;
+  }
+  .bottom-container .main-content-container .values-container .value-item-container {
+    width: 80%;
+    padding: 0;
+  }
+  .bottom-container .main-content-container .window-section-container .window-left .window-header {
+    font-size: 1.5rem;
+  }
+  .bottom-container .main-content-container .window-section-container .window-left .window-description {
+    width: 250px;
+  }
+  .bottom-container .main-content-container .window-section-container .window-right .window-cover-image img {
+    height: 0px;
+  }
+  .bottom-container .main-content-container .blog-container .blog-links-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=main.css.map */

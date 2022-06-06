@@ -1,13 +1,46 @@
-@media (max-width: 615px) {
+@media (max-width: 540px) {
   // .content-container {
   //   width: 40%;
   // }
+
+  // html,
+  // body {
+  //   height: 500px;
+  //   width: 500px;
+  //   margin: 0;
+  // }
+  .content-container {
+    display: grid;
+    grid-template-rows: 400px 1600px;
+    // width: 300px;
+  }
 
   .hero-image-container {
     width: 40%;
   }
   .header-container {
     width: 100%;
+    .header-right {
+      width: 70%;
+    }
+    .header-spacer-1 {
+      width: 0;
+    }
+
+    .header-right {
+      .header-more {
+        height: 0px;
+        a {
+          height: 0px;
+          width: 0px;
+          color: transparent;
+        }
+      }
+    }
+
+    .header-spacer-2 {
+      width: 0;
+    }
   }
 
   .hero-space-container {
@@ -17,21 +50,76 @@
     flex-direction: column;
     // justify-content: column;
     .hero-header {
+      font-size: 2rem;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
     }
+    .hero-button-wrapper {
+      height: 0px;
+      .see-more-button {
+        color: transparent;
+        height: 0px;
+        width: 0px;
+      }
+    }
   }
 
   .bottom-container {
     width: 40%;
-    .values-container {
-      width: 300;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      padding: 0;
+    height: 120%;
+
+    .main-content-container {
+      height: 2000px;
+
+      .middle-header {
+        height: 150px;
+        font-size: 1.5rem;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        text-align: center;
+      }
+
+      .values-container {
+        // width: 300;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        .value-item-container {
+          width: 80%;
+          padding: 0;
+        }
+      }
+
+      .window-section-container {
+        .window-left {
+          .window-header {
+            font-size: 1.5rem;
+          }
+
+          .window-description {
+            width: 250px;
+          }
+        }
+        .window-right {
+          .window-cover-image {
+            img {
+              height: 0px;
+            }
+          }
+        }
+      }
+
+      .blog-container {
+        .blog-links-container {
+          display: flex;
+          flex-direction: column;
+        }
+      }
     }
   }
 
