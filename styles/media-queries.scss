@@ -86,4 +86,151 @@
       }
     }
   }
+
+  .content-container-blog {
+    .header-container-other-pages {
+      justify-content: center;
+
+      .header-left {
+        width: 30%;
+        .logo-link {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+
+      .header-spacer-1 {
+        width: 0;
+      }
+      .header-right {
+        width: 70%;
+
+        .header-more {
+          width: 0;
+          display: none;
+        }
+      }
+
+      .header-spacer-2 {
+        width: 0;
+      }
+    }
+  }
+
+  .content-container-contact {
+    .header-container-other-pages {
+      .header-spacer-1 {
+        width: 0;
+      }
+
+      .header-left {
+        width: 30%;
+      }
+
+      .header-right {
+        width: 70%;
+        .header-more {
+          width: 0;
+          display: none;
+        }
+      }
+      .header-spacer-2 {
+        width: 0;
+      }
+    }
+  }
+
+  .contact-form-container {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 10px;
+
+    .contact-left {
+      width: 100%;
+    }
+
+    .contact-right {
+      .contact-type-container {
+        padding-bottom: 30px;
+      }
+    }
+  }
+
+  // .content-container-blog-post {
+  // }
+}
+
+@media (max-width: 840px) {
+  .content-container-blog-post {
+    .header-container-other-pages {
+      display: flex;
+      justify-content: center;
+
+      .header-left {
+        width: 30%;
+      }
+      .header-spacer-1 {
+        width: 0;
+      }
+
+      .header-right {
+        width: 70%;
+        .header-more {
+          width: 0;
+          display: none;
+        }
+      }
+      .heder-spacer-2 {
+        width: 0;
+      }
+    }
+
+    .hero-container-blog-post {
+      .float-main-content-container {
+        .float-main-content {
+          height: auto;
+          .float-main-content-wrapper {
+            height: auto;
+            width: 90%;
+
+            .float-blog-description {
+              height: auto;
+              padding-bottom: 15px;
+            }
+
+            .paragraph-section {
+              height: auto;
+            }
+
+            .forms-section {
+              height: auto;
+            }
+
+            .misc-stuff-section {
+              height: auto;
+            }
+          }
+        }
+      }
+      .lower-main-content-blog-post {
+        height: 700px;
+        .lower-content-wrapper-blog-post {
+          height: 100%;
+          .other-blog-links-container {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: center;
+
+            .other-blog-wrapper {
+              width: 80%;
+              align-self: center;
+            }
+          }
+        }
+      }
+    }
+  }
 }
